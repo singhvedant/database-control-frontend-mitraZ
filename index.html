@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Storage IndexDB</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body align="center">
+    <div class="background">
+        <div class="container mt-5 p-5">
+            <div class="row">
+                <div class="col-md-6 add-appointment">
+                    <h2 class="text-center my-4">ADD SERVICE</h2>
+                    <form>
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-lg-4 col-form-label">Provider's name:</label>
+                            <div class="col-sm-8 col-lg-8">
+                                <input type="text" id="pet" class="form-control" placeholder="The name of Provider." required>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-lg-4 col-form-label">Owner's name:</label>
+                            <div class="col-sm-8 col-lg-8">
+                                <input type="text" id="owner" class="form-control" placeholder="Owner's Name." required>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-lg-4 col-form-label">Phone:</label>
+                            <div class="col-sm-8 col-lg-8">
+                                <input type="tel" id="phone" class="form-control" placeholder="Phone number." required>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-lg-4 col-form-label">Service Type:</label>
+                            <div class="col-sm-8 col-lg-8">
+                                <input type="dropdown" id="dropdown" class="form-control" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-lg-4 col-form-label">Description:</label>
+                            <div class="col-sm-8 col-lg-8">
+                                <input type="text" id="hour" class="form-control" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-lg-4 col-form-label">Pricing:</label>
+                            <div class="col-sm-8 col-lg-8">
+                                <textarea id="symptoms" class="form-control" required></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group row justify-content-end">
+                            <div class="col-sm-3">
+                                <button type="submit" class="btn btn-success w-100">Add</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-md-6">
+                    <h2 id="administra" class="text-center my-4"></h2>
+                    <ul id="appointments" class="list-group"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>

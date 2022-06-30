@@ -1,0 +1,36 @@
+html {
+    min-height: 100%;
+    align-content: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #74ebd5;
+    background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);
+    background: linear-gradient(to right, #ACB6E5, #74ebd5);
+    min-height: 100%;
+    padding-bottom: 5rem;
+}
+
+.background {
+    background-image: url("https://www.dropbox.com/s/bsc0fp26adihn0g/bone.png?raw=1");
+    background-repeat: repeat;
+}
+
+.container {
+    background-color: white;
+}
+
+header {
+    margin-top: 3rem;
+}
+
+header h1 {
+    color: white;
+}
+
+textarea {
+    height: 200px!important;
+}
